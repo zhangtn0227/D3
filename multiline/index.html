@@ -1,0 +1,40 @@
+<head>
+
+    <!-- Load d3 source scripts -->
+      <script src="https://d3js.org/d3.v7.min.js"></script>
+      <script src="https://d3js.org/colorbrewer.v1.min.js"></script>
+      <script src="https://d3js.org/d3-collection.v1.min.js"></script>
+      <script src="./MultipleLinesChart.js"></script>
+    <!-- style section-->
+      <style>
+         .axis path{
+             stroke:black;
+             stroke-width:2px ;
+         }   
+    
+         .axis line{
+             stroke: black;
+             stroke-width: 1.5px;
+         } 
+      
+         .axis text{
+             fill: black;
+             font-weight: bold;
+             font-size: 14px;
+             font-family:"Arial Black", Gadget, sans-serif;
+         } 
+    
+         .legend text{
+             fill:  black;
+             font-family:"Arial Black", Gadget, sans-serif;
+         }
+      </style>
+      
+</head>
+    
+<body onload="lineChart()">
+    <!-- svg canvas-->
+      <svg width="1200" height="750" style="background-image: url('https://etc.usf.edu/presentations/backgrounds/grid/grid_04/1304m.gif');">
+      </svg>
+</body>
+
